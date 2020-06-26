@@ -184,4 +184,4 @@ for epoch in range(1, opt.epochs+1):
                                                                                                          losses["test"]/counts["test"],
                                                                                                          accuracies["test"]/counts["test"]))
     
-    torch.save(model.state_dict(), 'encoder_models/exp4/eeg_encoder_{}.pth'.format(epoch))
+    
